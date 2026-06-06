@@ -1,0 +1,19 @@
+
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  font-family: monospace;
+  padding: 15px;
+}
+
+#mapcontainer {
+  width: 1000px;
+  height: 300px;
+} 
