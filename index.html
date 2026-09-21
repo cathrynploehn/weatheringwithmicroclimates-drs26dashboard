@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="favicon.ico" />
-    <title>❀ Cat's class ❀</title>
+    <title>❀ Weathering-with Microclimates ❀</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./leaflet.css" />
     <script src="leaflet.js"></script>
@@ -14,11 +14,27 @@
   </head>
   <body>
     <main>
-      <h1>Weathering-with Microclimates</h1>
-      <div id="mapcontainer"></div>
+      <header>
+        <h1>Weathering<em>-with</em> Microclimates</h1>
+        <p>Data from Explorations workshop held at Design Research Society 2026 on June 9th from 4:00pm - 5:30pm, 2026 ☀ Cathryn Ploehn and Ceren Ozgen</p>
+      </header>
+      <div id="charts">
+        <div id="map">
+          <h2>sensor locations</h2>
+          <p>Edinburgh, Scotland</p>
+          <div id="mapcontainer">
+            
+          </div>
+          <p>George Square Gardens, lat: 55.943738623653616, lon:-3.188825959330503</p>
+        </div>
+        <div>
+          <h2>measured heat index at each location</h2>
+          <div id="HeatIndex"></div>
 
-      <div id="HeatIndex"></div>
-      <div id="differences"></div>
+          <h2>measured difference in heat index for each location</h2>
+          <div id="differences"></div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
